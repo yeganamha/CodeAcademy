@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.main__container{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.fileds_container{
+    width: 30%;
+}
+
+.programs__box{
+
+    width: 50%;
+    border: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    
+}
+
+.program{
+
+    width: 100%;
+    border: 1px solid black;
+}
+.program:hover{
+    background-color: rebeccapurple;
+   
+}
+
+a{
+   
+    width: 50%;
+    text-decoration: none;
+ 
+}
+
+.program_img{
+
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+
